@@ -1,4 +1,12 @@
-language : python 
-python : 3.13.7
-install : true
-script : python tests.py
+language: python
+
+python:
+  - "3.10"
+  - "3.11"
+  - "3.12"
+
+install:
+  - pip install -r requirements.txt || true   # skip if no requirements.txt
+
+script:
+  - python -m unittest discover -v
