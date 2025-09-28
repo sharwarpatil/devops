@@ -1,0 +1,4 @@
+language : python 
+python : 3.13.7
+install : true
+script : python tests.py
