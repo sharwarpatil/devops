@@ -10,5 +10,9 @@ install:
  
 script:
   - python -m unittest discover -v
+
   
-  
+deploy:
+  provider: <provider>
+  # ⋮
+  dpl_version: <version> # Optional, defaults to the latest stable version

@@ -9,3 +9,4 @@ jdk:
 # But you can customize:
 script:
   - mvn clean verify
+
