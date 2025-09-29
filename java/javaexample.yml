@@ -1,0 +1,11 @@
+language: java
+
+# Specify JDK versions to test against
+jdk:
+  - openjdk11
+  - openjdk17
+
+# Travis automatically runs `mvn test` by default for Maven projects
+# But you can customize:
+script:
+  - mvn clean verify
