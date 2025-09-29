@@ -6,7 +6,7 @@ python:
   - "3.12"
 
 install:
-  - pip install -r requirements.txt || true   # skip if no requirements.txt
-
+  - pip install -r requirements.txt || true   # skip if no requirements.txt there 
+ 
 script:
   - python -m unittest discover -v
